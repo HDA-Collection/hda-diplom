@@ -1,0 +1,720 @@
+<!DOCTYPE html> 
+<html lang="ru">
+<head> 
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>mq-diplom</title>
+</head>
+
+<body>
+
+<div class="hidden">
+	<div class="pop-up">
+		<form class="pop-up_container">
+			<button class="pop-up_close" type="button">
+				<span class="description-hidden">кнопка - скрыть поп-ап</span>
+			</button>
+
+			<header><h3 class="pop-up_heading">сейчас в тренде</h3></header>
+
+			<h4 class="form-hint">Как часто вы заходите на сайт?</h4>
+				<div class="form-row">
+					<select class="select">
+						<option>Вообще не захожу</option>
+						<option>Редко</option>
+						<option selected>Почти каждый день</option>
+						<div class="form-arrows"></div>
+					</select>
+				</div>
+
+			<h4 class="form-hint">Вы подписаны на e-mail рассылку?</h4>
+				<div class="form-radio">
+					<label class="radio-group">
+						<input type="radio" class="radio" name="radio-group">
+						<span class="radio-group-text">Да</span>
+						<span class="description-hidden">кнопка "да"</span>
+					</label>
+					<label class="radio-group">
+						<input type="radio" class="radio" name="radio-group">
+						<span class="radio-group-text">Нет</span>
+						<span class="description-hidden">кнопка "нет"</span>
+					</label>
+				</div>
+
+			<h4 class="form-hint">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</h4>
+				<div class="form-row">
+					<textarea class="field-textarea" placeholder="Может, больше рецептов?"></textarea>
+				</div>
+
+			<button type="submit" class="button-pop-up">отправить
+			  <span class="description-hidden">кнопка отправить</span>
+			</button>
+		</form>
+	</div>	
+</div>
+
+<header class="header">
+
+	<div class="header-container">
+
+		<div class="menu">
+			<a href="/">
+				<img src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg" alt="logo" class="header-logo">
+			</a>
+			<nav class="header-menu">
+				<ul class="menu-list">
+					<li><a class="menu-link" href="/">главная</a></li>
+						<li><a class="menu-link" href="#0">посты</a></li>
+						<li><a class="menu-link" href="#0">статьи</a></li>
+						<li><a class="menu-link" href="#0">теги</a></li>
+						<li><a class="menu-link" href="#0">темы</a></li>
+						<li><a class="menu-link" href="#0">контакты</a></li>
+				</ul>
+			</nav>
+
+			<div class="button">
+				<span class="burger"></span>
+				<span class="description-hidden">кнопка меню-бургер</span>	
+			</div>
+
+		</div>
+
+		<h1 class="heading">Блог о творчестве, спорте, и образе жизни</h1>
+
+	</div>
+
+</header>
+
+<h3 class="card-heading">сейчас в тренде</h3>
+
+<section class="card-menu">
+
+	<article class="card" style="background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/trend1.jpg);">
+		<div class="card-container">
+			<div class="card-information">
+				<nav class="card-tag">
+					<ul class="news-tag-list">
+						<li class="news-tag-item">
+							<a class="news-tag-link" href="#">lifestyle</a>
+						</li>
+						<li class="news-tag-item">
+							<a class="news-tag-link" href="#">interior</a>
+						</li>
+					</ul>
+				</nav>
+
+				<h2 class="card-text">
+					<a class="card-text" href="#0">cейчас в тренде: сад на подоконнике</a>
+				</h2> 
+			</div>
+		</div>
+	</article>
+
+	<article class="card" style="background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/trend2.jpg);">
+		<div class="card-container">
+			<div class="card-information">
+				<nav class="card-tag">
+					<ul class="news-tag-list">
+						<li class="news-tag-item">
+							<a class="news-tag-link" href="#">food</a>
+						</li>
+					</ul>
+				</nav>
+
+				<h2 class="card-text">
+					<a class="card-text" href="#0">сыры на красивых картинках из интернета: какие они на вкус?</a>
+				</h2>
+			</div>
+		</div>
+	</article>
+
+	<article class="card" style="background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/trend3.jpg);">
+		<div class="card-container">
+			<div class="card-information">
+				<nav class="card-tag">
+					<ul class="news-tag-list">
+						<li class="news-tag-item">
+							<a class="news-tag-link" href="#">lifestyle</a>
+						</li>
+						<li class="news-tag-item">
+							<a class="news-tag-link" href="#">travel</a>
+						</li>
+					</ul>
+				</nav>
+
+				<h2 class="card-text">
+					<a class="card-text" href="#0">собираемся в первый поход в горы</a>
+				</h2> 
+			</div>
+		</div>		
+	</article>
+
+	<article class="card" style="background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/trend4.jpg);">
+		<div class="card-container">
+			<div class="card-information">
+				<nav class="card-tag">
+					<ul class="news-tag-list">
+						<li class="news-tag-item">
+							<a class="news-tag-link" href="#">food</a>
+						</li>
+						<li class="news-tag-item">
+							<a class="news-tag-link" href="#">health</a>
+						</li>
+					</ul>
+				</nav>
+
+				<h2 class="card-text">
+					<a class="card-text" href="#0">сейчас в тренде: сколько витамина c в лимонах?</a>
+				</h2> 
+			</div>
+		</div>			
+	</article>
+</section>
+
+<div class="container-page"> 
+
+	<main class="article">
+
+		<article class="news">
+
+			<a class="news-img" href="#0">
+				<img class="news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post1.jpg" alt="человек на пляже">
+			</a> 
+
+			<div class="news-description">
+
+				<nav class="news-tag">
+					<ul class="news-tag-list">
+						<li class="news-tag-item">
+							<a class="news-tag-link" href="#">travel</a>
+						</li>
+						<li class="news-tag-item">
+							<a class="news-tag-link" href="#">health</a>
+						</li>
+					</ul>
+				</nav>
+
+			<h2 class="heading-news">
+				<a class="heading-news" href="#0">10 мест, ради которых стоит проснуться на рассвете</a>
+			</h2> 
+
+			<div class="news-text-meta">
+				<time datetime="2019-06-10" class="date">10 июня 2019</time>
+				<a class="author">Неизвестный автор</a>
+			</div>
+
+			<div class="news-text">
+				<p>
+				Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города… Музеи еще закрыты. Что посмотреть?
+				</p>
+			</div>
+
+			</div>
+
+		</article>
+			
+		<article class="news">
+
+			<a class="news-img" href="#0">
+				<img class="news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post2.jpg" alt="занятия йогой">
+			</a>
+
+			<div class="news-description">
+
+				<nav class="news-tag">
+					<ul class="news-tag-list">
+						<li class="news-tag-item">
+							<a class="news-tag-link" href="#">health</a>
+						</li>
+						<li class="news-tag-item">
+							<a class="news-tag-link" href="#">lifestyle</a>
+						</li>
+					</ul>
+				</nav>
+
+			<h2 class="heading-news">
+				<a class="heading-news" href="#0">Йога для начинающих в домашних условиях</a>
+			</h2>
+
+			<div class="news-text-meta">
+				<time datetime="2019-06-10" class="date">10 июня 2019</time>
+				<a class="author">Неизвестный автор</a>
+			</div>
+
+			<div class="news-text"> 
+				<p>
+				Расскажем, какие упражнения выбрать и как сделать коврик для занятий йогой из того, что можно найти в шкафу.
+				</p>
+			</div>
+
+		</div>
+
+		</article>
+
+		<article class="news"> 
+
+			<a class="news-img" href="#0">
+				<img class="news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post3.jpg" alt="опен эйр">
+			</a> 
+
+			<div class="news-description">
+
+				<nav class="news-tag">
+					<ul class="news-tag-list">
+						<li class="news-tag-item">
+							<a class="news-tag-link" href="#">music</a>
+						</li>
+					</ul>
+				</nav>
+
+			<h2 class="heading-news">
+				<a class="heading-news" href="#0">Лучшие музыкальные фестивали этого лета</a>
+			</h2>
+
+			<div class="news-text-meta">
+				<time datetime="2019-06-10" class="date">10 июня 2019</time>
+				<a class="author">Неизвестный автор</a>
+			</div>
+
+			<div class="news-text"> 
+				<p>
+				Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы разобьёте свою палатку?
+				</p>
+
+				<p class="indent-p">
+				Мы составили список лучших летних фестивалей по всему миру.
+				</p>
+			</div>        	
+
+			</div>
+
+		</article>
+
+		<article class="news">
+
+			<a class="news-img" href="#0">
+				<img class="news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post4.jpg" alt="еда">
+			</a> 
+
+			<div class="news-description">
+
+				<nav class="news-tag">
+					<ul class="news-tag-list">
+						<li class="news-tag-item">
+							<a class="news-tag-link" href="#">lifestyle</a>
+						</li>
+						<li class="news-tag-item">
+							<a class="news-tag-link" href="#">food</a>
+						</li>
+					</ul>
+				</nav>
+
+			<h2 class="heading-news">
+				<a class="heading-news" href="#0">Наукоёмкий подход к кулинарии</a>
+			</h2> 
+
+			<div class="news-text-meta">
+				<time datetime="2019-06-10" class="date">10 июня 2019</time>
+				<a class="author">Неизвестный автор</a>
+			</div>
+
+			<div class="news-text"> 
+				<p>
+				Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.
+				</p>
+			</div>
+
+			</div>
+
+		</article>
+
+		<article class="news">
+				
+			<a class="news-img" href="#0">
+				<img class="news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post5.jpg" alt="принт на подушке">
+			</a> 
+		        
+			<div class="news-description">
+
+				<nav class="news-tag">
+					<ul class="news-tag-list">
+						<li class="news-tag-item">
+							<a class="news-tag-link" href="#">lifestyle</a>
+						</li>
+						<li class="news-tag-item">
+							<a class="news-tag-link" href="#">interior</a>
+						</li>
+						<li class="news-tag-item">
+							<a class="news-tag-link" href="#">art</a>
+						</li>
+					</ul>
+				</nav>
+
+			<h2 class="heading-news">
+				<a class="heading-news" href="#0">Делаем модные принты на подушках для интерьера </a>
+			</h2>
+
+			<div class="news-text-meta">
+				<time datetime="2019-06-10" class="date">10 июня 2019</time>
+				<a class="author">Неизвестный автор</a>
+			</div>
+
+			<div class="news-text"> 
+				<p>
+				Подушки для дивана целесообразнее заказать в съемных чехлах на молнии, если потребуется чистка подушек, проще снять чехлы, чем везти подушку в химчистку.
+				</p>
+			</div>
+
+			</div>
+
+		</article>
+
+		<article class="news">
+
+			<a class="news-img" href="#0">
+				<img class="news-img" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post6.jpg" alt="принт на подушке">
+			</a> 
+
+			<div class="news-description">
+
+				<nav class="news-tag">
+					<ul class="news-tag-list">
+						<li class="news-tag-item">
+							<a class="news-tag-link" href="#">travel</a>
+						</li>
+						<li class="news-tag-item">
+							<a class="news-tag-link" href="#">lifestyle</a>
+						</li>
+					</ul>
+				</nav>
+
+			<h2 class="heading-news">
+				<a class="heading-news" href="#0">Как первый раз отправиться в горы? </a>
+			</h2> 
+
+			<div class="news-text-meta">
+				<time datetime="2019-06-10" class="date">10 июня 2019</time>
+				<a class="author">Неизвестный автор</a>
+			</div>
+
+			<div class="news-text"> 
+				<p>
+				Для начала нужно определиться, в каком формате пройдёт ваше путешествие. Это зависит от многих факторов, не только от ваших желаний и интересов.
+				</p>
+			</div>
+
+			</div>
+
+		</article>
+
+	</main>
+
+
+<aside class="aside">
+	
+<h3 class="heading-section">новые посты</h3>
+
+	<section class="news-list">
+
+		<a class="image" href="#0">
+			<img class="image" src="https://netology-code.github.io/html-2-diploma/sources/images/2.jpg" alt="человек на пляже">
+		</a>
+
+		<div class="section-description">
+		  	 
+			<time datetime="2019-06-14" class="date">14 июня 2019</time>
+
+			<h3 class="headline">
+				<a class="headline" href="#0">10 мест, ради которых стоит проснуться.</a>
+			</h3>
+
+		</div>
+
+	</section>
+
+	<section class="news-list">
+
+		<a class="image" href="#0">
+			<img class="image" src="https://netology-code.github.io/html-2-diploma/sources/images/151.jpg" alt="занятия йогой">
+		</a>
+			
+		<div class="section-description">
+
+			<time datetime="2019-06-14" class="date">14 июня 2019</time>
+
+			<h3 class="headline">
+				<a class="headline" href="#0">Йога для домашних.</a>
+			</h3>
+
+		</div>
+
+	</section>
+
+	<section class="news-list">
+
+		<a class="image" href="#0">
+			<img class="image" src="https://netology-code.github.io/html-2-diploma/sources/images/45.jpg" alt="интерьер балкона">
+		</a>
+
+		<div class="section-description">
+
+			<time datetime="2019-06-14" class="date">14 июня 2019</time>
+
+			<h3 class="headline">
+				<a class="headline" href="#0">Как мы превратили классное место в балкон.</a>
+			</h3>
+
+		</div>
+
+	</section>
+
+	<section class="news-list">
+
+		<a class="image" href="#0">
+			<img class="image" src="https://netology-code.github.io/html-2-diploma/sources/images/501.jpg" alt="еда">
+		</a>
+
+		<div class="section-description">
+
+			<time datetime="2019-06-14" class="date">14 июня 2019</time>
+
+			<h3 class="headline">
+				<a class="headline" href="#0">Кулинарный подход к науке.</a>
+			</h3>
+
+		</div>
+
+	</section>
+
+	<section class="news-list">
+
+		<a class="image" href="#0">
+			<img class="image" src="https://netology-code.github.io/html-2-diploma/sources/images/7.jpg" alt="прически">
+		</a>
+
+		<div class="section-description">
+		  	 
+			<time datetime="2019-06-14" class="date">14 июня 2019</time>
+
+			<h3 class="headline">
+				<a class="headline" href="#0">Лучшие прически для распущенных волос.</a>
+			</h3>
+
+		</div>
+
+	</section>
+
+	<form class="search-field">
+		<label class="search-group">
+			<input type="search" class="search" placeholder="Найти..." required>
+			<span class="description-hidden">поле ввода для поиска</span>
+		</label>	
+		<button type="button" class="button-search">
+			<span class="description-hidden">кнопка для поиска</span>
+		</button>
+	</form>
+
+<h3 class="heading-section">рассылка</h3>
+
+	<form class="email-field">
+		<label class="email-group">
+			<input type="email" class="email" placeholder="Ваш email-адрес" required>
+			<span class="description-hidden">поле ввода почты</span>
+		</label>
+		<button type="submit" class="button-email">подписаться
+			<span class="description-hidden">кнопка подписаться</span>
+		</button>
+	</form>
+
+<h3 class="heading-section">теги</h3>
+
+	<ul class="tag-list">
+		<li><a class="tag-link" href="#0">fashion</a></li>
+		<li><a class="tag-link" href="#0">music</a></li>
+		<li><a class="tag-link" href="#0">lifestyle</a></li>
+		<li><a class="tag-link" href="#0">art</a></li>
+		<li><a class="tag-link" href="#0">interior</a></li>
+		<li><a class="tag-link" href="#0">travel</a></li>
+		<li><a class="tag-link" href="#0">food</a></li>
+		<li><a class="tag-link" href="#0">health</a></li>
+	</ul>
+
+<h3 class="heading-section">темы</h3>
+
+	<ul class="themes-list">
+		<li>
+			<a class="themes-link" href="#0">Красота</a>
+			<a class="amount" href="#0">12</a>
+		</li>
+		<li>
+			<a class="themes-link" href="#0">Здоровье</a>
+			<a class="amount" href="#0">4</a>
+		</li>
+		<li>
+			<a class="themes-link" href="#0">Образ жизни</a>
+			<a class="amount" href="#0">145</a>
+		</li>
+		<li>
+			<a class="themes-link" href="#0">Музыка</a>
+			<a class="amount" href="#0">28</a>
+		</li>
+		<li>
+			<a class="themes-link" href="#0">Спорт</a>
+			<a class="amount" href="#0">62</a>
+		</li>
+		<li>
+			<a class="themes-link" href="#0">Йога</a>
+			<a class="amount" href="#0">8</a>
+		</li>
+	</ul>
+
+</aside>
+
+</div>
+
+<h3 class="card-heading">наши изделия</h3>
+
+<aside class="products_container">
+
+	<div class="product_container">
+		<picture class="product_preview">
+			<source
+			     media="(max-width: 640px)"
+			     srcset="https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-mobile1.jpg">
+			<source
+			     media="(min-width: 641px) and (max-width: 1200px)"
+			     srcset="https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-tablet1.jpg">
+			<img
+			     src="https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-desk1.jpg"
+			     alt="Подушки на диван">
+		</picture>
+
+		<div class="product">
+			<a class="heading-product" href="#0">Подушки на диван</a>
+				<div class="text-product"> 
+					<p>
+					Набор из двух подушек с модными принтами. Видео о создании <span class="selection-here">здесь</span>.
+					</p>
+				</div>
+
+				<div class="footer_container">
+					<div class="price_container">
+						<span class="price_product">1000 ₽</span>
+						<span class="price__product">800 ₽</span>
+					</div>
+					<button type="submit" class="button-subscribe">в магазин
+						<span class="description-hidden">кнопка перехода в магазин</span>
+					</button>
+				</div>
+		</div>
+	</div>
+
+	<div class="product_container">
+		<picture class="product_preview">
+			<source
+			     media="(max-width: 640px)"
+			     srcset="https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-mobile2.jpg">
+			<source
+			     media="(min-width: 641px) and (max-width: 1200px)"
+			     srcset="https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-tablet2.jpg">
+			<img
+			     src="https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-desk2.jpg"
+			     alt="Кукла «Зайчик»">
+		</picture>
+
+
+		<div class="product">
+			<a class="heading-product" href="#0">Кукла «Зайчик»</a>
+				<div class="text-product"> 
+					<p>
+					Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <span class="selection">весенняя серия постов</span> в блоге и несколько подкастов.
+					</p>
+				</div>
+
+				<div class="footer_container">
+					<div class="price_container">
+						<span class="price__product">3500 ₽</span>
+					</div>
+					<button type="submit" class="button-subscribe">в магазин
+						<span class="description-hidden">кнопка перехода в магазин</span>
+					</button>
+				</div>
+		</div>
+	</div>
+
+	<div class="product_container">
+		<picture class="product_preview">
+			<source
+			     media="(max-width: 640px)"
+			     srcset="https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-mobile3.jpg">
+			<source
+			     media="(min-width: 641px) and (max-width: 1200px)"
+			     srcset="https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-tablet3.jpg">
+			<img
+			     src="https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/shop-item-desk3.jpg"
+			     alt="Шестиугольная рамка">
+		</picture>
+
+		<div class="product">	
+			<a class="heading-product" href="#0">Шестиугольная рамка</a>
+				<div class="text-product"> 
+					<p>
+					Необычная рамка для украшения дома из видео <span class="selection">«Как сделать рамку из подручных средств за 30 минут»</span>.
+					</p>
+				</div>
+
+				<div class="footer_container">
+					<div class="price_container">
+						<span class="price_product">500 ₽</span>
+						<span class="price__product">400 ₽</span>
+					</div>
+					<button type="submit" class="button-subscribe">в магазин
+						<span class="description-hidden">кнопка перехода в магазин</span>
+					</button>
+				</div>			
+		</div>
+	</div>
+
+</aside>
+
+<footer class="footer-container">
+
+		<address>
+			<ul class="socials">
+				<li class="socials-item">
+					<a href="#0" class="socials-link socials-link-twitter">
+					<span class="socials-link-hidden">twitter</span>
+					</a>
+				</li>
+				<li class="socials-item">
+					<a href="#0" class="socials-link socials-link-pinterest">
+					<span class="socials-link-hidden">pinterest</span>
+					</a>
+				</li>
+				<li class="socials-item">
+					<a href="#0" class="socials-link socials-link-facebook">
+					<span class="socials-link-hidden">facebook</span>
+					</a>
+				</li>
+				<li class="socials-item">
+					<a href="#0" class="socials-link socials-link-instagram">
+					<span class="socials-link-hidden">instagram</span>
+					</a>
+				</li>
+				<li class="socials-item">
+					<a href="#0" class="socials-link socials-link-tumblr">
+					<span class="socials-link-hidden">tumblr</span>
+					</a>
+				</li>
+			</ul>
+		</address>
+
+</footer>
+
+	<a class="themes-link" href="#0">
+		<h5 class="heading-copyright">Copyright © 2009–2019 City Blog LLC.</h5>
+	</a>
+
+</body>

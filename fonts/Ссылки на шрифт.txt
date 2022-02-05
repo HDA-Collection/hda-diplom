@@ -1,0 +1,2 @@
+https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff
+https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff
